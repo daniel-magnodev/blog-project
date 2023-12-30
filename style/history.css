@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,900;1,900&display=swap');
 
+
 header{
     display: flex;
     justify-content: space-between;
@@ -64,9 +65,8 @@ a{
 
 body{
     background-color: #040D09;
-
-
 }
+
 main{
     background-color: rgba(128, 128, 128, 0.105);
     border-radius: 20px;
@@ -81,39 +81,25 @@ h1{
 }
 
 h2{
-
-}
-
-h3{
-
-}
-
-p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
-aside{
-    color: white;
-    list-style: none;
-    font-family: 'Bebas Neue', sans-serif;
-    
-}
-
-h2#asidetittle{
     font-family: 'Bebas Neue', sans-serif;
     color: #D91E2E;
     font-size: 35px;
 }
 
-footer{
-    font-family: Arial, Helvetica, sans-serif;
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 30px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+div.imagem{
     text-align: center;
-    
+
 }
 
-ul.asidelist{
-    text-decoration: none;  
-    font-size: 22px;  
-}
